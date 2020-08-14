@@ -1,0 +1,28 @@
+{
+  "name": "typescript-template",
+  "version": "0.1.0",
+  "description": "A Node template using TypeScript and ts-node",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node -P tsconfig.json index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AryanJ-NYC/ts-node-typescript-template.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "template"
+  ],
+  "author": "Aryan Jabbari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AryanJ-NYC/ts-node-typescript-template/issues"
+  },
+  "homepage": "https://github.com/AryanJ-NYC/ts-node-typescript-template#readme",
+  "dependencies": {
+    "ts-node": "^8.10.2",
+    "typescript": "^4.0.1-rc"
+  }
+}
