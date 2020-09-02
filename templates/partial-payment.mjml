@@ -1,0 +1,25 @@
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-column background-color="#ffffff">
+        <mj-image
+          width="800px"
+          src="https://cdn.sanity.io/images/w4avejpr/development/5972c765a52470a0c5c75789779359c949177a91-1024x521.png?w=800"
+        ></mj-image>
+
+        <mj-divider border-color="#000000"></mj-divider>
+
+        <mj-text font-size="20px" color="#000000" font-family="roboto"
+          >You've made a partial payment towards your item. Return to
+          <a href="{{ invoiceUrl }}">your invoice</a> to complete payment.</mj-text
+        >
+
+        <mj-text font-size="16px" color="#000000" font-family="roboto"
+          >Paid partial invoices usually happen when a buyer pays the invoice from the exchange
+          wallet which takes a fee for their service and deducts it from a total. In some cases, it
+          happens when buyer enters an incorrect amount in their wallet.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

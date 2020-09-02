@@ -7,11 +7,7 @@ export default class MailGunClient extends Mailgun {
     super({ apiKey: process.env.MAILGUN_API_KEY, domain: 'mg.scarce.city' });
   }
 
-  updateTemplateVersion = async (
-    templateName: string,
-    versionTag: string,
-    htmlTemplate: string
-  ) => {
+  putTemplateVersion = async (templateName: string, versionTag: string, htmlTemplate: string) => {
     return this.put(`/${this.domain}/templates/${templateName}/versions/${versionTag}`, {
       template: htmlTemplate,
       version: versionTag,
