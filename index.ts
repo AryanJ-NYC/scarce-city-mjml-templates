@@ -14,10 +14,12 @@ async function main() {
   const mjmlFileNames = await readDir('./templates');
 
   mjmlFileNames.forEach(async (fileName) => {
+    console.log(`uploading ${fileName}`);
     const mjml = await getFileContents(`./templates/${fileName}`);
     const { html } = mjml2html(mjml);
     const [templateName] = fileName.split('.');
     await mailgunClient.putTemplateVersion(templateName, 'initial', html);
+    console.log(`${fileName} uploaded`);
   });
 }
 
