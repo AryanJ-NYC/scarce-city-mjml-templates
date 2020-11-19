@@ -1,0 +1,55 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      a {
+        color: #4299e1;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column background-color="#ffffff">
+        <mj-image width="800px" src="https://cdn.sanity.io/images/w4avejpr/development/5972c765a52470a0c5c75789779359c949177a91-1024x521.png?w=800"></mj-image>
+
+        <mj-divider border-color="#000000"></mj-divider>
+
+        <mj-text font-size="20px" color="#000000" font-family="roboto">Congratulations, your bid for <a href="https://scarce.city/products/{{ productSlug }}">{{ productName }}</a> has been received!</mj-text>
+
+        <mj-table>
+          <tr style="text-align: center; padding: 15px 0">
+            <th>Bidder Name</th>
+            <th>Amount (in sats)</th>
+            <th>Time &amp; Date</th>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #e2e8f0">{{ bidderName }}</td>
+            <td style="border: 1px solid #e2e8f0">{{ amountInSats }}</td>
+            <td style="border: 1px solid #e2e8f0">{{ formattedDateTime }}</td>
+          </tr>
+        </mj-table>
+
+        <mj-text font-size="20px" color="#000000" font-family="roboto">The winning bidder will have 24 hours to pay the full bid amount (minus the sum of their
+          bid deposits). If they fail to pay, they’ll lose their deposits and give up the win to the
+          next highest bidder.
+        </mj-text>
+
+        <mj-text font-size="20px" color="#000000" font-family="roboto">Auction losers will receive an email refunding the sum of their bid deposits when the
+          auction ends.
+        </mj-text>
+
+        <mj-text font-size="20px" color="#000000" font-family="roboto">Happy bidding, <br />
+          <mj-raw>
+            <a href="https://scarce.city">
+              Scarce City</a>
+          </mj-raw>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
