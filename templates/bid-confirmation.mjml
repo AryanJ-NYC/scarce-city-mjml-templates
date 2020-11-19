@@ -1,5 +1,6 @@
 <mjml>
   <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
     <mj-style>
       a {
         color: #4299e1;
@@ -9,17 +10,21 @@
       a:hover {
         text-decoration: underline;
       }
+
+      body {
+        font-family: 'Roboto', 'Arial'
+      }
     </mj-style>
 
   </mj-head>
   <mj-body>
     <mj-section>
       <mj-column background-color="#ffffff">
-        <mj-image width="800px" src="https://cdn.sanity.io/images/w4avejpr/development/5972c765a52470a0c5c75789779359c949177a91-1024x521.png?w=800"></mj-image>
+        <mj-image width="800px" src="https://cdn.sanity.io/images/w4avejpr/production/c597b22dc0d9acf5054535457711486f45d8c26e-1018x429.png?auto=format&w=800"></mj-image>
 
         <mj-divider border-color="#000000"></mj-divider>
 
-        <mj-text font-size="20px" color="#000000" font-family="roboto">Congratulations, your bid for <a href="https://scarce.city/products/{{ productSlug }}">{{ productName }}</a> has been received!</mj-text>
+        <mj-text font-size="20px" color="#000000" font-family="Roboto">Congratulations, your bid for <a href="https://scarce.city/products/{{ productSlug }}">{{ productName }}</a> has been received!</mj-text>
 
         <mj-table>
           <tr style="text-align: center; padding: 15px 0">
@@ -34,16 +39,16 @@
           </tr>
         </mj-table>
 
-        <mj-text font-size="20px" color="#000000" font-family="roboto">The winning bidder will have 24 hours to pay the full bid amount (minus the sum of their
+        <mj-text font-size="20px" color="#000000" font-family="Roboto">The winning bidder will have 24 hours to pay the full bid amount (minus the sum of their
           bid deposits). If they fail to pay, they’ll lose their deposits and give up the win to the
           next highest bidder.
         </mj-text>
 
-        <mj-text font-size="20px" color="#000000" font-family="roboto">Auction losers will receive an email refunding the sum of their bid deposits when the
+        <mj-text font-size="20px" color="#000000" font-family="Roboto">Auction losers will receive an email refunding the sum of their bid deposits when the
           auction ends.
         </mj-text>
 
-        <mj-text font-size="20px" color="#000000" font-family="roboto">Happy bidding, <br />
+        <mj-text font-size="20px" color="#000000" font-family="Roboto">Happy bidding, <br />
           <mj-raw>
             <a href="https://scarce.city">
               Scarce City</a>
