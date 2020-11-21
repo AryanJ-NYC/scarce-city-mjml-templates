@@ -25,7 +25,7 @@
 
         <mj-text font-size="20px" color="#000000" font-family="Roboto">Your transaction is now complete. Once your item has shipped, you'll receive confirmation with tracking information.</mj-text>
 
-        <mj-button href="{{ baseUrl }}/products/{{ productSlug }}">View Ledger</mj-button>
+        <mj-button href="https://scarce.city/products/{{ productSlug }}">View Ledger</mj-button>
 
         <mj-button href="https://viewblock.io/arweave/tx/{{ blockchainTxId }}">View Arweave Transaction</mj-button>
 
@@ -40,7 +40,7 @@
             <td style="border: 1px solid #e2e8f0"><a href="https://viewblock.io/arweave/tx/{{ blockchainTxId }}">{{ bitcoinAddress }}</a></td>
           </tr>
         </mj-table>
-gi        <mj-text line-height="150%">Run your Lightning Node Public Key through the <a href="https://xorbin.com/tools/sha256-hash-calculator">SHA256 hash generator</a> to verify your <span style="font-weight: 900;">Encrypted Lightning Node Public Key</span> in the Transaction Table.</mj-text>
+        <mj-text line-height="150%">Run your Lightning Node Public Key through the <a href="https://xorbin.com/tools/sha256-hash-calculator">SHA256 hash generator</a> to verify your <span style="font-weight: 900;">Encrypted Lightning Node Public Key</span> in the Transaction Table.</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>

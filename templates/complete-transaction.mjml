@@ -25,7 +25,7 @@
 
         <mj-text font-size="20px" color="#000000" font-family="Roboto">Your transaction is now complete. Once your item has shipped, you'll receive confirmation with tracking information.</mj-text>
 
-        <mj-button href="{{ baseUrl }}/products/{{ productSlug }}">View Ledger</mj-button>
+        <mj-button href="https://scarce.city/products/{{ productSlug }}">View Ledger</mj-button>
 
         <mj-button href="https://viewblock.io/arweave/tx/{{ blockchainTxId }}">View Arweave Transaction</mj-button>
 
