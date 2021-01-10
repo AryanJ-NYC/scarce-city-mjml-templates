@@ -29,6 +29,9 @@
         <mj-text font-size="20px" color="#000000" font-family="Roboto">Click <a href="https://scarce.city/products/{{ productSlug }}">here</a> to place a higher bid.
         </mj-text>
 
+        <mj-text font-size="20px" color="#000000" font-family="Roboto">Your deposited collateral will go towards future bids.</mj-text>
+
+
         <mj-text font-size="20px" color="#000000" font-family="Roboto">Happy bidding, <br />
           <mj-raw>
             <a href="https://scarce.city">
