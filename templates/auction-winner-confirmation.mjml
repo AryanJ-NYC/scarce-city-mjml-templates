@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"></mj-font>
+    <mj-font name="Roboto Mono" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"></mj-font>
     <mj-style>
       a {
         color: #4299e1;
@@ -39,7 +39,7 @@
       }
 
       body {
-        font-family: 'Roboto', 'Arial'
+        font-family: 'Roboto Mono', 'Arial'
       }
     </mj-style>
 
@@ -51,28 +51,28 @@
 
         <mj-divider border-color="#000000"></mj-divider>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto">
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
           Congratulations, {{ winnerName }}! You've won the Lightning Auction for <span class="font-bold text-black">{{ productName }}</span>!
         </mj-text>
 
-        <mj-text font-size="16px" font-family="Roboto">
+        <mj-text font-size="16px" font-family="Roboto Mono">
           Input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your shipping address on the <a href="https://scarce.city/products/{{ productSlug }}">auction page</a> to verify you are the winner. You’ll then be directed to send an onchain Bitcoin transaction consisting of the full bid amount, less the sum of your bid deposits, plus a temporary deposit for the maximum estimated shipping cost.
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto" font-weight="bold">
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono" font-weight="bold">
           You have 24 hours to make the payment.
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto">If you do not pay the full bid amount by {{ paymentDeadline }}, you will lose the right to purchase the item and your bid deposits will not be refunded.
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">If you do not pay the full bid amount by {{ paymentDeadline }}, you will lose the right to purchase the item and your bid deposits will not be refunded.
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto">Once the item ships, the shipping cost difference will be refunded to you by email. We’ll also provide you with a shipping receipt and tracking information at that time.
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">Once the item ships, the shipping cost difference will be refunded to you by email. We’ll also provide you with a shipping receipt and tracking information at that time.
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto">The item is fully insured. You will be responsible for paying any import taxes required by the country of receipt.
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">The item is fully insured. You will be responsible for paying any import taxes required by the country of receipt.
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto">
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
           <span class="block font-bold">Here is a summary of the total amount due at this time:</span>
           <span class="block my-2">{{ winningBidAmount }} sats bid</span>
           <span class="block my-2">&minus; {{ bidDepositsSum }} sats sum of bid deposits</span>
@@ -81,19 +81,19 @@
           <span class="font-bold block">Total Amount Due of approx. {{ totalAmountDue }}</span>
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto">
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
           Return to the <a href="https://scarce.city/products/{{ productSlug }}">auction page</a> and input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your shipping address to verify you are the winner and pay the balance with an onchain Bitcoin transaction.
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto">
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
           To protect your privacy, we will delete your shipping address from our database after delivery is confirmed.
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto">
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
           Please let me know if you have any questions.
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto">Chris<br />
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">Chris<br />
           <a href="https://scarce.city">
             Scarce City</a>
         </mj-text>
