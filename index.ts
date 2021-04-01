@@ -18,7 +18,7 @@ async function main() {
     const mjml = await getFileContents(`./templates/${fileName}`);
     const { html } = mjml2html(mjml);
     const [templateName] = fileName.split('.');
-    await mailgunClient.putTemplateVersion(templateName, 'initial', html);
+    await mailgunClient.upsertTemplate(templateName, templateName, 'initial', html);
     console.log(`${fileName} uploaded`);
   });
 }
