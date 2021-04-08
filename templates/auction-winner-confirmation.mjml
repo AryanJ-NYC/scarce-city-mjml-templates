@@ -69,7 +69,8 @@
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">Once the item ships, the shipping cost difference<sup>*</sup> will be refunded to you by email. We’ll also provide you with a shipping receipt and tracking information at that time.
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">The item is fully insured. You will be responsible for paying any import taxes required by the country of receipt.
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+          You will be responsible for paying any import taxes required by the country of receipt.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
