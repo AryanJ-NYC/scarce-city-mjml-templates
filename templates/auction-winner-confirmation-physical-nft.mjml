@@ -64,11 +64,12 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          If you do not pay the full bid amount by {{ paymentDeadline }}, you will lose the right to purchase the item and your bid deposits will not be refunded.
-        </mj-text>
-
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          If you input an NFT Receive Address, we’ll transfer the NFT to the address as soon as possible. ONLY INPUT A COUNTERPARTY ADDRESS. Go to <a href="https://rarepepewallet.com/">Rare Pepe Wallet</a> to quickly generate a receive address. If you do not input an <span class="font-bold">NFT Receive Address</span>, your NFT will be sent to your Opendime address once you confirm item receipt.
+          <span class="block font-bold">Here is a summary of the total amount due at this time:</span>
+          <span class="block my-2">{{ winningBidAmount }} sats bid</span>
+          <span class="block my-2">&minus; {{ bidDepositsSum }} sats sum of bid deposits</span>
+          <span class="block my-2">+ approx. {{ shippingDepositAmount }} sats shipping deposit (subject to change based on conversion rate at time of payment)</span>
+          <div id="summation-border"></div>
+          <span class="font-bold block">Total Amount Due of approx. {{ totalAmountDue }}</span>
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
@@ -80,20 +81,15 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          <span class="block font-bold">Here is a summary of the total amount due at this time:</span>
-          <span class="block my-2">{{ winningBidAmount }} sats bid</span>
-          <span class="block my-2">&minus; {{ bidDepositsSum }} sats sum of bid deposits</span>
-          <span class="block my-2">+ approx. {{ shippingDepositAmount }} sats shipping deposit (subject to change based on conversion rate at time of payment)</span>
-          <div id="summation-border"></div>
-          <span class="font-bold block">Total Amount Due of approx. {{ totalAmountDue }}</span>
-        </mj-text>
-
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
           Return to the auction page and input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your shipping and NFT receive addresses to verify you are the winner and pay the balance with an onchain Bitcoin transaction.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          <a href="https://scarce.city/products/{{ productSlug }}">https://scarce.city/products/{{ productSlug }}</a>
+          If you input an <span class="font-bold">NFT Receive Address</span>, we’ll transfer the NFT to the address as soon as possible. ONLY INPUT A COUNTERPARTY ADDRESS. Go to <a href="https://rarepepewallet.com/">Rare Pepe Wallet</a> to quickly generate a receive address. If you do not input an <span class="font-bold">NFT Receive Address</span>, your NFT will be sent to your Opendime address once you confirm item receipt.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+          If you do not pay the full bid amount by {{ paymentDeadline }}, you will lose the right to purchase the item and your bid deposits will not be refunded.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
@@ -105,7 +101,7 @@
         </mj-text>
 
         <mj-text font-size="12px" color="#000000" font-family="Roboto Mono">
-          * The shipping cost difference is calculated based on the BTC conversion price at the time your transaction is broadcasted.
+          <sup>*</sup> The shipping cost difference is calculated based on the BTC conversion price at the time your transaction is broadcasted.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">Chris<br />
