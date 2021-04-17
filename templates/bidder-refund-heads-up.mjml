@@ -1,0 +1,87 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto Mono" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"></mj-font>
+    <mj-style>
+      a {
+        color: #4299e1;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .my-2 {
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+
+      #summation-border {
+        border-bottom: 1px solid #555;
+        margin-top: 4px;
+        margin-bottom: 4px
+      }
+
+      .block {
+        display: block;
+      }
+
+      .text-black {
+        color: #000;
+      }
+
+      .italic {
+        font-style: italic
+      }
+
+      .font-bold {
+        font-weight: bold;
+      }
+
+      body {
+        font-family: 'Roboto Mono', 'Arial'
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body>
+    <mj-column background-color="#ffffff">
+      <mj-image width="800px" src="https://cdn.sanity.io/images/w4avejpr/production/6a509d31a90781a8788447fda9723bb53e7d281c-1024x436.png?auto=format&w=800"></mj-image>
+      <mj-divider border-color="#000000"></mj-divider>
+
+      <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        The final {{ productName }} bid is pending payment. Once paid, we'll begin processing your bid deposit refund.
+      </mj-text>
+
+      <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        The refund will be emailed to you as an LNURL QR code that can be redeemed with any supporting Lightning wallet<sup>*</sup>.
+      </mj-text>
+
+      <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        If you experience any difficulty redeeming the funds, we'll coordinate another method without incurring any fee to you.
+      </mj-text>
+
+      <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        Any unredeemed refunds will be donated to the Bitcoin organization or developer of the artist’s choosing. Let us know if you prefer for your entire or partial refund to be directed to the cause.
+      </mj-text>
+
+      <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        Please let us know if you have any questions.
+      </mj-text>
+
+      <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        Thank you for supporting Scarce City and Bitcoin art!
+      </mj-text>
+
+      <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        <sup>*</sup>LNURL supporting Lightning wallets:<br />
+        BLW, Blixt, BlueWallet, Breez, coinos, LNbits, @lntxbot, Phoenix, Shockwallet, ThunderHub, Wallet of Satoshi, Zap-Android, Zap-iOS, ZEBEDEE, Zeus
+      </mj-text>
+
+      <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">Chris<br />
+        <a href="https://scarce.city">
+          Scarce City</a>
+      </mj-text>
+    </mj-column>
+  </mj-body>
+</mjml>
