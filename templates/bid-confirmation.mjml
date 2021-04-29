@@ -11,7 +11,9 @@
         text-decoration: underline;
       }
 
-      a, body, tr {
+      a,
+      body,
+      tr {
         font-family: 'Roboto Mono', 'Arial'
       }
     </mj-style>
@@ -39,22 +41,36 @@
           </tr>
         </mj-table>
 
-        <mj-text font-weight="bold" font-size="20px" color="#000000" font-family="Roboto Mono">Onchain bid deposits must confirm before auction end and are disabled in the final 15 minutes of the countdown.
+        <mj-raw>
+          {{#if isUnauth}}
+        </mj-raw>
+        <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">
+          <a href="https://scarce.city/register">Register</a> to pay a 1-time deposit of {{ maxBidDepositAmount }} sats minus your previous deposit(s) for unlimited bids.
+        </mj-text>
+        <mj-raw>
+          {{/if}}
+        </mj-raw>
+
+        <mj-text font-weight="bold" font-size="20px" color="#000000" font-family="Roboto Mono">
+          Onchain bid deposits must confirm before auction end and are disabled in the final 15 minutes of the countdown.
         </mj-text>
 
-        <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">The winning bidder will have 24 hours to pay the full bid amount (minus the sum of their
+        <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">
+          The winning bidder will have 24 hours to pay the full bid amount (minus the sum of their
           bid deposits). If they fail to pay, they’ll lose their deposits and give up the win to the
           next highest bidder.
         </mj-text>
 
-        <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">Auction losers will receive an email refunding the sum of their bid deposits when the
+        <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">
+          Auction losers will receive an email refunding the sum of their bid deposits when the
           auction ends.
         </mj-text>
 
         <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">Happy bidding, <br />
           <mj-raw>
             <a href="https://scarce.city">
-              Scarce City</a>
+              Scarce City
+            </a>
           </mj-raw>
         </mj-text>
       </mj-column>

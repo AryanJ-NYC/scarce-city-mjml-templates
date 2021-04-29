@@ -1,10 +1,7 @@
 import Mailgun from 'mailgun-js';
 
 export default class MailGunClient extends Mailgun {
-  // private readonly domain = 'sandboxa0e011abaa70432c9e8dbcbf44304ff2.mailgun.org';
-  private readonly domain = 'mg.scarce.city';
-
-  constructor() {
+  constructor(private readonly domain: string) {
     super({ apiKey: process.env.MAILGUN_API_KEY, domain: 'mg.scarce.city' });
   }
 
