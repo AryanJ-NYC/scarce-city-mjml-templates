@@ -1,0 +1,53 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto Mono" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"></mj-font>
+    <mj-style>
+      a {
+        color: #4299e1;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      a,
+      body,
+      tr {
+        font-family: 'Roboto Mono', 'Arial'
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column background-color="#ffffff">
+        <mj-image width="800px" src="https://cdn.sanity.io/images/w4avejpr/production/6a509d31a90781a8788447fda9723bb53e7d281c-1024x436.png?auto=format&w=800"></mj-image>
+
+        <mj-divider border-color="#000000"></mj-divider>
+
+        <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">
+          Hi {{ buyerName }}, your payment has confirmed!
+        </mj-text>
+
+        <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">
+          {{ sellerName }} will securely pack {{ productName }} and send it your way as soon as possible.
+        </mj-text>
+        <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">
+          Once sent, we’ll follow up with the shipping receipt, your corresponding shipping deposit refund, and tracking information.
+        </mj-text>
+
+        <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">
+          Thank you!
+        </mj-text>
+
+        <mj-text font-size="20px" font-family="Roboto Mono">
+          Chris<br />
+          <a href="https://scarce.city">
+            Scarce City
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
