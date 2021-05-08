@@ -55,22 +55,8 @@
           Congratulations, {{ winnerName }}! You've won the Lightning Auction for <span class="font-bold text-black">{{ productName }}</span>!
         </mj-text>
 
-        <mj-text font-size="16px" font-family="Roboto Mono">
-          Input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your shipping address on the <a href="https://scarce.city/products/{{ productSlug }}">auction page</a> to verify you are the winner. You’ll then be directed to send an onchain Bitcoin transaction consisting of the full bid amount, less the sum of your bid deposits, plus a temporary deposit for the maximum estimated shipping cost.
-        </mj-text>
-
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono" font-weight="bold">
           You have 24 hours to make the payment.
-        </mj-text>
-
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">If you do not pay the full bid amount by {{ paymentDeadline }}, you will lose the right to purchase the item and your bid deposits will not be refunded.
-        </mj-text>
-
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">Once the item ships, the shipping cost difference<sup>*</sup> will be refunded to you by email. We’ll also provide you with a shipping receipt and tracking information at that time.
-        </mj-text>
-
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          You are responsible for paying any import taxes required by the country of receipt. Once the work is ready for shipment, we will share images of the packaging and give you the option to purchase insurance.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
@@ -82,8 +68,24 @@
           <span class="font-bold block">Total Amount Due of approx. {{ totalAmountDue }}</span>
         </mj-text>
 
+        <mj-text font-size="16px" font-family="Roboto Mono">
+          Input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your shipping address on the <a href="https://scarce.city/products/{{ productSlug }}">auction page</a> to verify you are the winner. You’ll then be directed to send an onchain Bitcoin transaction consisting of the full bid amount, less the sum of your bid deposits, plus a temporary deposit for the maximum estimated shipping cost.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+          Insurance will be included in the shipping cost. You are responsible for paying any import taxes. Please let me know if you prefer to reduce the insurance amount or decline it altogether.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+          Once the item ships, the shipping cost difference<sup>*</sup> will be refunded to you by email. We’ll also provide you with a shipping receipt and tracking information at that time.
+        </mj-text>
+
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
           Return to the <a href="https://scarce.city/products/{{ productSlug }}">auction page</a> and input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your shipping address to verify you are the winner and pay the balance with an onchain Bitcoin transaction.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+          If you do not pay the full bid amount by {{ paymentDeadline }}, you will lose the right to purchase the item and your bid deposits will NOT be refunded.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
