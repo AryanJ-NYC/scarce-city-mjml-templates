@@ -33,7 +33,7 @@
 
         <mj-raw>{{#if isUnauth}}</mj-raw>
         <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">
-          Your deposited collateral will go towards future bids. <a href="https://scarce.city/register">Register</a> to pay a 1-time deposit of {{ maxBidDepositAmount }} sats minus your previous deposit(s) for unlimited bids.
+          <a href="https://scarce.city/register">Register</a> for lower bid deposits and the option to pay a 1-time deposit of {{ maxBidDepositAmount }} sats minus your previous deposit(s) for unlimited bids.
         </mj-text>
         <mj-raw>{{ else }}</mj-raw>
         <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">
