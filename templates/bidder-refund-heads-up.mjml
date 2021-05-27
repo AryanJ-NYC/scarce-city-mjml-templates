@@ -50,7 +50,11 @@
       <mj-divider border-color="#000000"></mj-divider>
 
       <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-        The final {{ productName }} bid is pending payment. Once paid, we'll begin processing your bid deposit refund.
+        The final {{ productName }} bid is pending payment. If the higher bidder does not pay, you may be responsible for paying the reamining balance of your bid.
+      </mj-text>
+
+      <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        Once the item is paid for, we'll begin processing your bid deposit refunds.
       </mj-text>
 
       <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
