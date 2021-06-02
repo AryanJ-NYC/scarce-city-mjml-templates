@@ -26,7 +26,7 @@
 
         <mj-divider border-color="#000000"></mj-divider>
 
-        <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">Congratulations, your bid for <a href="https://scarce.city/products/{{ productSlug }}">{{ productName }}</a> has been received!</mj-text>
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">Congratulations, your bid for <a href="https://scarce.city/products/{{ productSlug }}">{{ productName }}</a> has been received!</mj-text>
 
         <mj-table>
           <tr style="text-align: center; padding: 15px 0">
@@ -44,29 +44,55 @@
         <mj-raw>
           {{#if isUnauth}}
         </mj-raw>
-        <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">
-          <a href="https://scarce.city/register">Register</a> for lower bid deposits and the option to pay a 1-time deposit of {{ maxBidDepositAmount }} sats minus your previous deposit(s) for unlimited bids.
+        <mj-raw>
+          {{#if hasUnlimitedConferenceBids}}
+        </mj-raw>
+
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+          <a href="https://scarce.city/register">Register</a> your email address to access unlimited event bids.
         </mj-text>
+
+        <mj-raw>
+          {{else if hasMultipleAuctionBids}}
+        </mj-raw>
+        <mj-raw>
+          {{#if hasUnlimitedAuctionBids}}
+        </mj-raw>
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+          <a href="https://scarce.city/register">Register</a> your email address to access unlimited auction bids.
+        </mj-text>
+        <mj-raw>
+          {{ else }}
+        </mj-raw>
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+          <a href="https://scarce.city/register">Register</a> your email address to access free bids up to {{ freeBidsLimit }} sats for {{ productName }}.
+        </mj-text>
+
+        <mj-raw>
+          {{/if}}
+        </mj-raw>
+        <mj-raw>
+          {{/if}}
+        </mj-raw>
         <mj-raw>
           {{/if}}
         </mj-raw>
 
-        <mj-text font-weight="bold" font-size="20px" color="#000000" font-family="Roboto Mono">
+        <mj-text font-weight="bold" font-size="16px" color="#000000" font-family="Roboto Mono">
           Onchain bid deposits must confirm before auction end and are disabled in the final 15 minutes of the countdown.
         </mj-text>
 
-        <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">
-          The winning bidder will have 24 hours to pay the full bid amount (minus the sum of their
-          bid deposits). If they fail to pay, they’ll lose their deposits and give up the win to the
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+          The winning bidder will have 24-72 hours (auction dependent) to pay the full bid amount. If they fail to pay, they’ll lose their deposits and give up the win to the
           next highest bidder.
         </mj-text>
 
-        <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">
-          Auction losers will receive an email refunding the sum of their bid deposits when the
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+          Auction losers will receive an email refunding the sum of their bid deposits. For security reasons, these refunds will be issued the week after the conference.
           auction ends.
         </mj-text>
 
-        <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">Happy bidding, <br />
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">Happy bidding, <br />
           <mj-raw>
             <a href="https://scarce.city">
               Scarce City
