@@ -27,7 +27,6 @@
 
         <mj-divider border-color="#000000"></mj-divider>
 
-
         <mj-text font-size="16px" font-family="Roboto Mono">
           <a href="https://scarce.city/auctions/{{ productSlug }}">{{ productName }}</a> has been paid for by the higher bidder and the auction is officially complete.
         </mj-text>

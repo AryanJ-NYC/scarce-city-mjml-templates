@@ -31,10 +31,19 @@
         </mj-text>
 
         <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">
-          {{ sellerName }} will securely pack {{ productName }} and send it your way as soon as possible.
+          If you’ve opted to pick the item up from the conference, {{ sellerName }} will contact you ASAP to coordinate handoff.
         </mj-text>
+
         <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">
-          Once sent, we’ll follow up with the shipping receipt, your corresponding shipping deposit refund, and tracking information.
+          If you’ve chosen to ship the item, they will securely pack it and send it your way.
+        </mj-text>
+
+        <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">
+          Once sent, we’ll follow up with your tracking information, the shipping receipt, your corresponding shipping deposit refund, and full bid deposit refunds. For security reasons, these refunds will be issued the week after the conference.
+        </mj-text>
+
+        <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">
+          Please let me know if you have any questions in the meantime.
         </mj-text>
 
         <mj-text font-size="20px" color="#000000" font-family="Roboto Mono">
