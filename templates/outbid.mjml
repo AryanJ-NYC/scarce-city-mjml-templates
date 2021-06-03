@@ -32,15 +32,46 @@
           Click <a href="https://scarce.city/products/{{ productSlug }}">here</a> to place a higher bid.
         </mj-text>
 
-        <mj-raw>{{#if isUnauth}}</mj-raw>
+        <mj-raw>
+          {{#if isUnauth}}
+        </mj-raw>
+        <mj-raw>
+          {{#if hasUnlimitedConferenceBids}}
+        </mj-raw>
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          <a href="https://scarce.city/register">Register</a> for lower bid deposits and the option to pay a 1-time deposit of {{ maxBidDepositAmount }} sats minus your previous deposit(s) for unlimited bids.
+          <a href="https://scarce.city/register">Register</a> your email address to access unlimited event bids.
         </mj-text>
-        <mj-raw>{{ else }}</mj-raw>
+        <mj-raw>
+          {{ else if hasMultipleAuctionBids }}
+        </mj-raw>
+
+        <mj-raw>
+          {{#if hasUnlimitedAuctionBids}}
+        </mj-raw>
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          Your deposited collateral will go towards future bids.
+          <a href="https://scarce.city/register">Register</a> your email address to access unlimited auction bids.
         </mj-text>
-        <mj-raw>{{/if}}</mj-raw>
+        <mj-raw>
+          {{ else }}
+        </mj-raw>
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+          <a href="https://scarce.city/register">Register</a> your email address to access free bids up to {{ freeBidsLimit }} sats for {{ productName }}.
+        </mj-text>
+        <mj-raw>
+          {{/if}}
+        </mj-raw>
+        <mj-raw>
+          {{ else }}
+        </mj-raw>
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+          <a href="https://scarce.city/register">Register</a> your email address to lower your bid deposit.
+        </mj-text>
+        <mj-raw>
+          {{/if}}
+        </mj-raw>
+        <mj-raw>
+          {{/if}}
+        </mj-raw>
 
         <mj-text font-weight="bold" font-size="16px" color="#000000" font-family="Roboto Mono">
           Onchain bid deposits must confirm before auction end and are disabled in the final 15 minutes of the countdown.

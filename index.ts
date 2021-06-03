@@ -10,7 +10,7 @@ const readFile = util.promisify(fs.readFile);
 dotenv.config();
 
 const domains = [
-  'sandboxa0e011abaa70432c9e8dbcbf44304ff2.mailgun.org', //dev
+  'sandboxa0e011abaa70432c9e8dbcbf44304ff2.mailgun.org', // dev
   'mg.scarce.city', // prod
 ];
 async function main() {
