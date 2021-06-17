@@ -54,7 +54,7 @@
       </mj-text>
 
       <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-      For security reasons, bid deposit refunds will be issued the week after the conference.
+        For security reasons, bid deposit refunds will be issued the week after the conference.
       </mj-text>
 
       <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
@@ -81,6 +81,10 @@
       <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">Chris<br />
         <a href="https://scarce.city">
           Scarce City</a>
+      </mj-text>
+
+      <mj-text color="#000000" font-family="Roboto Mono">
+        <a href=%unsubscribe_url%>Unsubscribe<a>
       </mj-text>
     </mj-column>
   </mj-body>
