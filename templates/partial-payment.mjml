@@ -19,7 +19,7 @@
   <mj-body>
     <mj-section>
       <mj-column background-color="#ffffff">
-        <mj-image width="800px" src="https://cdn.sanity.io/images/w4avejpr/production/6a509d31a90781a8788447fda9723bb53e7d281c-1024x436.png?auto=format&w=800"></mj-image>
+        <mj-image width="100%" src="https://cdn.sanity.io/images/w4avejpr/production/1dfc70061a8c7854b52cd766b9176999b2c2fb9f-1280x1120.png?h=240&auto=format"></mj-image>
 
         <mj-divider border-color="#000000"></mj-divider>
 
