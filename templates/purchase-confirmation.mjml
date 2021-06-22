@@ -19,7 +19,7 @@
     </mj-style>
 
   </mj-head>
-  <mj-body>
+    <mj-body>
     <mj-section>
       <mj-column background-color="#ffffff">
         <mj-image width="100%" src="https://cdn.sanity.io/images/w4avejpr/production/1dfc70061a8c7854b52cd766b9176999b2c2fb9f-1280x1120.png?h=240&auto=format"></mj-image>
@@ -27,30 +27,24 @@
         <mj-divider border-color="#000000"></mj-divider>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          Hi {{ buyerName }}, your payment has confirmed!
+          Your payment for {{ productName }} has confirmed.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          {{ sellerName }} will securely pack {{ productName }} and send it your way as soon as possible.
+          We will ship it to the address you provided as soon as possible. I will follow-up with tracking information at that time.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          Once sent, we’ll follow up with the shipping receipt, your corresponding shipping deposit refund, and tracking information.
+          Please understand that the item is custom made to order and it will likely be several weeks before you receive it. Your patience is appreciated!
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          Please let me know if you have any questions in the meantime.
+          Let me know if you have any questions in the meantime.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          Thank you!
-        </mj-text>
-
-        <mj-text font-size="16px" font-family="Roboto Mono">
-          Chris<br />
-          <a href="https://scarce.city">
-            Scarce City
-          </a>
+          Thank you,<br />
+          Chris
         </mj-text>
 
         <mj-text color="#000000" font-family="Roboto Mono">
