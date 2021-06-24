@@ -56,19 +56,15 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono" font-weight="bold">
-          You have until {{ paymentDeadline }}, 5pm ET to pay your winning bid amount of {{ winningBidAmount }} sats.
+          You have until 4 hours to pay your winning bid amount of {{ winningBidAmount }} sats.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          If you are NOT picking the artwork up from the conference, you will also be charged a shipping deposit of approx. {{ shippingDepositAmount }} sats (subject to change based on conversion rate at time of payment).
+          You will also be charged a shipping deposit of approx. {{ shippingDepositAmount }} sats (subject to change based on conversion rate at time of payment).
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          Insurance will be included in the shipping cost. You are responsible for paying any import taxes. Please let me know if you prefer to reduce the insurance amount or decline it altogether.
-        </mj-text>
-
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          Once the item ships, the shipping cost difference<sup>*</sup> and the sum of your bid deposits will be refunded to you by email. We’ll also provide you with a shipping receipt and tracking information at that time. For security reasons, refunds will be issued the week after the conference.
+          Once the item ships, the shipping cost difference<sup>*</sup> and the sum of your bid deposits will be refunded to you by email. We’ll also provide you with a shipping receipt, tracking information and the option to purchase insurance (if applicable) at that time.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">

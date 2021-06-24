@@ -55,7 +55,7 @@
           {{ else }}
         </mj-raw>
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          <a href="https://scarce.city/register">Register</a> your email address to access free bids up to {{ freeBidsLimit }} sats for {{ productName }}.
+          <a href="https://scarce.city/register">Register</a> your email address to access free bids up to {{ freeBidsLimit }} sats.
         </mj-text>
         <mj-raw>
           {{/if}}

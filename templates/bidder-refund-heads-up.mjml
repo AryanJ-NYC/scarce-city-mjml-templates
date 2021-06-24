@@ -54,10 +54,6 @@
       </mj-text>
 
       <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-        For security reasons, bid deposit refunds will be issued the week after the conference.
-      </mj-text>
-
-      <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
         The refund will be emailed to you as an LNURL QR code that can be redeemed with any supporting Lightning wallet<sup>*</sup>.
       </mj-text>
 

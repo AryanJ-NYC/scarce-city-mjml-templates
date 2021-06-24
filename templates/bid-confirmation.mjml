@@ -65,7 +65,7 @@
           {{ else }}
         </mj-raw>
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          <a href="https://scarce.city/register">Register</a> your email address to access free bids up to {{ freeBidsLimit }} sats for {{ productName }}.
+          <a href="https://scarce.city/register">Register</a> your email address to access free bids up to {{ freeBidsLimit }} sats.
         </mj-text>
 
         <mj-raw>
@@ -83,13 +83,12 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          The winning bidder will have 24 hours to pay the full bid amount. If they fail to pay, they’ll lose their deposits and give up the win to the
+          The winning bidder will have 4 hours to pay the full bid amount. If they fail to pay, they’ll lose their deposits and give up the win to the
           next highest bidder.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          Auction losers will receive an email refunding the sum of their bid deposits. For security reasons, these refunds will be issued the week after the conference.
-          auction ends.
+          Bidders will receive an email refunding the sum of their bid deposits once the item has been paid for.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">Happy bidding, <br />
