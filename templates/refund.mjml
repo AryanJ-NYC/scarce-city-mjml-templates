@@ -28,10 +28,6 @@
         <mj-divider border-color="#000000"></mj-divider>
 
         <mj-text font-size="16px" font-family="Roboto Mono">
-          <a href="https://scarce.city/auctions/{{ productSlug }}">{{ productName }}</a> has been paid for by the higher bidder and the auction is officially complete.
-        </mj-text>
-
-        <mj-text font-size="16px" font-family="Roboto Mono">
           Scan the QR code with your LNURL supporting Lightning wallet<sup>*</sup> to redeem your total bid deposit refund of [amount] sats.
         </mj-text>
 
