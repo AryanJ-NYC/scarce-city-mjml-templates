@@ -31,11 +31,15 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          {{ sellerName }} will securely pack {{ productName }} and send it your way as soon as possible.
+          You will receive your full bid deposit refund by email with a LNURL QR code that can be redeemed with any supporting Lightning wallet<sup>*</sup>.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          Once sent, we’ll follow up with the shipping receipt, your corresponding shipping deposit refund, and tracking information.
+         The seller will securely pack {{ productName }} and send it your way as soon as possible.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+          Once sent, we’ll follow up with your tracking information, shipping receipt, the corresponding shipping deposit refund, and the option to purchase insurance (if applicable).
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
@@ -44,6 +48,11 @@
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
           Thank you!
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+          <sup>*</sup>LNURL supporting Lightning wallets:<br />
+          BLW, Blixt, BlueWallet, Breez, coinos, LNbits, @lntxbot, Phoenix, Shockwallet, ThunderHub, Wallet of Satoshi, Zap-Android, Zap-iOS, ZEBEDEE, Zeus
         </mj-text>
 
         <mj-text font-size="16px" font-family="Roboto Mono">
