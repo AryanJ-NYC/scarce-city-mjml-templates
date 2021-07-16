@@ -36,13 +36,7 @@
           {{#if isUnauth}}
         </mj-raw>
         <mj-raw>
-          {{#if hasUnlimitedConferenceBids}}
-        </mj-raw>
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          <a href="https://scarce.city/register">Register</a> your email address to access unlimited event bids.
-        </mj-text>
-        <mj-raw>
-          {{ else if hasMultipleAuctionBids }}
+          {{ #if hasMultipleAuctionBids }}
         </mj-raw>
 
         <mj-raw>
