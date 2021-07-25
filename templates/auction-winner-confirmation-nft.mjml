@@ -60,14 +60,7 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          Return to the auction page and input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your NFT receive address to verify you are the winner and pay the balance with an onchain Bitcoin transaction.
-        </mj-text>
-
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          <span class="block font-bold">Here is a summary of the total amount due at this time:</span>
-          <span class="block my-2">{{ winningBidAmount }} sats bid</span>
-          <div id="summation-border"></div>
-          <span class="font-bold block">Total Amount Due of approx. {{ totalAmountDue }}</span>
+          Return to the <a href="https://scarce.city/products/{{ productSlug }}">auction page</a> and input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your NFT receive address to verify you are the winner and pay the balance.
         </mj-text>
 
         <mj-raw>{{#if isCounterparty}}</mj-raw>
