@@ -34,13 +34,29 @@
           You will receive your full bid deposit refund by email with a LNURL QR code that can be redeemed with any supporting Lightning wallet<sup>*</sup>.
         </mj-text>
 
+        <mj-raw>
+          {{#if isPhysical}}
+        </mj-raw>
+
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-         The seller will securely pack {{ productName }} and send it your way as soon as possible.
+          The seller will securely pack {{ productName }} and send it your way as soon as possible.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
           Once sent, we’ll follow up with your tracking information, shipping receipt, the corresponding shipping deposit refund, and the option to purchase insurance (if applicable).
         </mj-text>
+
+        <mj-raw>
+          {{ else }}
+        </mj-raw>
+
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+          The seller will send {{ productName }} to your inputted NFT Receive Address as soon as possible. Once confirmed, I’ll follow-up with the transaction ID.
+        </mj-text>
+
+        <mj-raw>
+          {{/if}}
+        </mj-raw>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
           Please let me know if you have any questions in the meantime.
