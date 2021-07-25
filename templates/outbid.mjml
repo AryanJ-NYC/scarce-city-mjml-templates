@@ -35,8 +35,9 @@
         <mj-raw>
           {{#if isUnauth}}
         </mj-raw>
+
         <mj-raw>
-          {{ #if hasMultipleAuctionBids }}
+          {{#if hasMultipleAuctionBids}}
         </mj-raw>
 
         <mj-raw>
