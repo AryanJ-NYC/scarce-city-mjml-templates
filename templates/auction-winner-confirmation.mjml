@@ -68,7 +68,7 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          Return to the <a href="https://scarce.city/products/{{ productSlug }}">auction page</a> and input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your delivery information and pay your balance with an onchain transaction.
+          Return to the <a href="https://scarce.city/products/{{ productSlug }}">auction page</a> and input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your delivery information and pay your balance.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
