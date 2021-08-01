@@ -56,7 +56,7 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono" font-weight="bold">
-          You have 4 hours to pay your winning bid amount of {{ winningBidAmount }} sats.
+          You have 4 hours to make the payment or reply to this email with further information about your payment.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">

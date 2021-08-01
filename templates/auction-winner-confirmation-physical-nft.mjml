@@ -56,7 +56,7 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono" font-weight="bold">
-          You have 4 hours to pay your winning bid amount of {{ winningBidAmount }} sats.
+          You have 4 hours to make the payment or reply to this email with further information about your payment.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
@@ -75,7 +75,8 @@
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
           If you input an <span class="font-bold">NFT Receive Address</span>, we’ll transfer the NFT to the address as soon as possible. ONLY INPUT A COUNTERPARTY ADDRESS. Go to <a href="https://rarepepewallet.com/">Rare Pepe Wallet</a> to quickly generate a receive address. If you do not input an <span class="font-bold">NFT Receive Address</span>, your NFT will be sent to your Opendime address once you confirm item receipt.
         </mj-text>
-        <mj-raw>{{else if isLiquid}}</mj-raw>
+        <mj-raw>
+          {{else if isLiquid}}</mj-raw>
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
           Input an <span class="font-bold">NFT Receive Address</span> with your shipping information (LIQUID ADDRESS ONLY). Install <a href="https://blockstream.com/green">Blockstream GREEN</a> to generate a Liquid receive address.
         </mj-text>
