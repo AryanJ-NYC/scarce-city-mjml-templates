@@ -51,7 +51,7 @@
       <mj-divider border-color="#000000"></mj-divider>
 
       <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-        The final bids are pending payment. If the higher bidder does not pay, you may be responsible for paying the reamining balance of your bid.
+        The final bids are pending payment. If the higher bidder does not pay, you may be responsible for paying the remaining balance of your bid.
       </mj-text>
 
       <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
