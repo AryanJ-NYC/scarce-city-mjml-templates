@@ -52,7 +52,7 @@
         <mj-divider border-color="#000000"></mj-divider>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          The seller will send the Pepe to the Counterparty address you provided within 24 hours. If
+          The seller will send the Pepe to the Counterparty address you provided, {{ buyerCounterpartyAddress }}, within 24 hours. If
           they fail to, you will receive 2.5% of the pepe&apos;s listing price to compensate for the
           trouble.
         </mj-text>
