@@ -65,7 +65,7 @@
 
         <mj-raw>{{#if isCounterparty}}</mj-raw>
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          INPUT A COUNTERPARTY ADDRESS into the NFT Receive Address field. Go to <a href="https://rarepepewallet.com/">Rare Pepe Wallet</a> to quickly generate a receive address. We'll transfer the NFT to you as soon as possible.
+          INPUT A COUNTERPARTY ADDRESS into the NFT Receive Address field. Go to <a href="https://freewallet.io/">FreeWallet</a> to generate a receive address. We'll transfer the NFT to you as soon as possible.
         </mj-text>
         <mj-raw>{{else if isLiquid}}</mj-raw>
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">

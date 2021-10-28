@@ -73,7 +73,7 @@
 
         <mj-raw>{{#if isCounterparty}}</mj-raw>
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          If you input an <span class="font-bold">NFT Receive Address</span>, we’ll transfer the NFT to the address as soon as possible. ONLY INPUT A COUNTERPARTY ADDRESS. Go to <a href="https://rarepepewallet.com/">Rare Pepe Wallet</a> to quickly generate a receive address. If you do not input an <span class="font-bold">NFT Receive Address</span>, your NFT will be sent to your Opendime address once you confirm item receipt.
+          If you input an <span class="font-bold">NFT Receive Address</span>, we’ll transfer the NFT to the address as soon as possible. ONLY INPUT A COUNTERPARTY ADDRESS. Go to <a href="https://freewallet.io/">FreeWallet</a> to quickly generate a receive address. If you do not input an <span class="font-bold">NFT Receive Address</span>, your NFT will be sent to your Opendime address once you confirm item receipt.
         </mj-text>
         <mj-raw>
           {{else if isLiquid}}</mj-raw>
