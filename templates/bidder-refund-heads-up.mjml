@@ -55,7 +55,7 @@
       </mj-text>
 
       <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-        The refund will be emailed to you as an LNURL QR code that can be redeemed with any supporting Lightning wallet<sup>*</sup>. Please allow up to 24 hours for refunds to be issued. Be sure to check your spam folder for your bid deposit refund.
+        The refund will be emailed to you as an LNURL QR code that can be redeemed with any supporting Lightning wallet. Please allow up to 24 hours for refunds to be issued. Be sure to check your spam folder for your bid deposit refund.
       </mj-text>
 
       <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
@@ -68,11 +68,6 @@
 
       <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
         Thank you for supporting Scarce City and Bitcoin art!
-      </mj-text>
-
-      <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-        <sup>*</sup>LNURL supporting Lightning wallets:<br />
-        BLW, Blixt, BlueWallet, Breez, coinos, LNbits, @lntxbot, Phoenix, Shockwallet, ThunderHub, Wallet of Satoshi, Zap-Android, Zap-iOS, ZEBEDEE, Zeus
       </mj-text>
 
       <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">Chris<br />
