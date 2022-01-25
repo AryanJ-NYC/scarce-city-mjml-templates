@@ -29,7 +29,7 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          Click <a href="https://scarce.city/products/{{ productSlug }}">here</a> to place a higher bid.
+          Click <a href="https://scarce.city/auctions/{{ productSlug }}">here</a> to place a higher bid.
         </mj-text>
 
         <mj-raw>

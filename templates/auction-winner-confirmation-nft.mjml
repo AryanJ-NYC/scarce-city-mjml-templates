@@ -60,7 +60,7 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          Return to the <a href="https://scarce.city/products/{{ productSlug }}">auction page</a> and input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your NFT receive address to verify you are the winner and pay the balance.
+          Return to the <a href="https://scarce.city/auctions/{{ productSlug }}">auction page</a> and input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your NFT receive address to verify you are the winner and pay the balance.
         </mj-text>
 
         <mj-raw>{{#if isCounterparty}}</mj-raw>
