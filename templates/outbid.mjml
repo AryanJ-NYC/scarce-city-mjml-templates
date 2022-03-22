@@ -68,10 +68,6 @@
           {{/if}}
         </mj-raw>
 
-        <mj-text font-weight="bold" font-size="16px" color="#000000" font-family="Roboto Mono">
-          Onchain bid deposits must confirm before auction end and are disabled in the final 10 minutes of the countdown.
-        </mj-text>
-
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">Happy Bidding, <br />
           <mj-raw>
             <a href="https://scarce.city">

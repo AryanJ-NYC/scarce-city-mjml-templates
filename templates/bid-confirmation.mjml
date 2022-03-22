@@ -78,10 +78,6 @@
           {{/if}}
         </mj-raw>
 
-        <mj-text font-weight="bold" font-size="16px" color="#000000" font-family="Roboto Mono">
-          Onchain bid deposits must confirm before auction end and are disabled in the final 10 minutes of the countdown.
-        </mj-text>
-
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
           The winning bidder will receive instructions about payment upon winning. If they fail to pay, they’ll lose their deposits and give up the win to the
           next highest bidder.
