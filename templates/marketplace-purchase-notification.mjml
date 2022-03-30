@@ -52,7 +52,11 @@
         <mj-divider border-color="#000000"></mj-divider>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          Your {{ productName }} has been sold. Please send it to {{ nftAddress }} within 24 hours with a high fee (if sending from Rare Pepe Wallet, no adjustment is required. If sending from FreeWallet, set Priority to “High”). Reply to this email with the transaction hash when broadcast and the Bitcoin address you wish to receive payment to. For balances under 0.01 BTC, your proceeds will be sent on a weekly basis.
+          Your {{ productName }} has been sold. Please send it to {{ nftAddress }} within 24 hours with a high fee (if sending from Rare Pepe Wallet, no adjustment is required. If sending from FreeWallet, set Priority to “High”).
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+          Reply to this email with the transaction hash when broadcast and the Bitcoin address you wish to receive payment to. For balances under 0.01 BTC, your proceeds will be sent on a weekly basis.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">

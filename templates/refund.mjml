@@ -28,7 +28,7 @@
         <mj-divider border-color="#000000"></mj-divider>
 
         <mj-text font-size="16px" font-family="Roboto Mono">
-          Scan the QR code with your LNURL supporting Lightning wallet<sup>*</sup> to redeem your total bid deposit refund of {{ amount }} sats.
+          Scan the QR code with your Lightning wallet to redeem your total bid deposit refund of {{ amount }} sats.
         </mj-text>
 
         <mj-image height="300px" width="300px" src="cid:your-qrcode.jpg"></mj-image>
@@ -45,16 +45,7 @@
         </mj-text>
 
         <mj-text font-size="16px" font-family="Roboto Mono">
-          We have big plans to develop our marketplace and offer the finest Bitcoin goods.
-        </mj-text>
-
-        <mj-text font-size="16px" font-family="Roboto Mono">
           If you haven’t already, sign up for our <a href="https://city.us19.list-manage.com/subscribe?u=d4f5035004fbb2cf449ced012&id=6d64f935f5">mailing list</a> and follow us on <a href="https://twitter.com/scarcedotcity">Twitter</a>.
-        </mj-text>
-
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          <sup>*</sup>LNURL supporting Lightning wallets:<br />
-          BLW, Blixt, BlueWallet, Breez, coinos, LNbits, @lntxbot, Phoenix, Shockwallet, ThunderHub, Wallet of Satoshi, Zap-Android, Zap-iOS, ZEBEDEE, Zeus
         </mj-text>
 
         <mj-text font-size="16px" font-family="Roboto Mono">

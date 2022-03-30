@@ -56,7 +56,11 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono" font-weight="bold">
-          You have 48 hours to make the payment or reply to this email with further information about your payment.
+          You have until Monday, April 11 at midnight ET to pay your final bid.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+          If you do not pay the full bid amount within the required time period, you will lose the right to purchase the item and your bid deposits will NOT be refunded.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
@@ -69,11 +73,7 @@
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
           Return to the <a href="https://scarce.city/auctions/{{ productSlug }}">auction page</a> and input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your delivery information and pay your balance.
-        </mj-text>
-
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          If you do not pay the full bid amount within the required time period, you will lose the right to purchase the item and your bid deposits will NOT be refunded.
-        </mj-text>
+        </mj-text>t>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
           To protect your privacy, your shipping address will be deleted from our database after delivery is confirmed.

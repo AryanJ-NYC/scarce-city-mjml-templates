@@ -31,7 +31,7 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          You will receive your full bid deposit refund by email with a LNURL QR code that can be redeemed with any supporting Lightning wallet<sup>*</sup>.
+          You will receive your full bid deposit refund by email with a LNURL QR code that can be redeemed with most Lightning wallets.
         </mj-text>
 
         <mj-raw>
@@ -64,11 +64,6 @@
 
         <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
           Thank you!
-        </mj-text>
-
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
-          <sup>*</sup>LNURL supporting Lightning wallets:<br />
-          BLW, Blixt, BlueWallet, Breez, coinos, LNbits, @lntxbot, Phoenix, Shockwallet, ThunderHub, Wallet of Satoshi, Zap-Android, Zap-iOS, ZEBEDEE, Zeus
         </mj-text>
 
         <mj-text font-size="16px" font-family="Roboto Mono">
