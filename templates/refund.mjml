@@ -37,7 +37,7 @@
         </mj-text>
 
         <mj-text font-size="16px" font-family="Roboto Mono">
-          If you're not able to withdraw from the LNURL QR code, please reply with a Lightning invoice of the amount owed and we will pay it ASAP.
+          If you're not able to withdraw from the LNURL QR code, please reply with a Lightning invoice of the amount owed or your on-chain Bitcoin receive address. We will pay it ASAP.
         </mj-text>
 
         <mj-text font-size="16px" font-family="Roboto Mono">
