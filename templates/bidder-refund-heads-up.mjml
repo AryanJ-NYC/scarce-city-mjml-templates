@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-font name="Roboto Mono" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"></mj-font>
+    <mj-font name="Red Hat Display" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap"></mj-font>
     <mj-style>
       a {
         color: #4299e1;
@@ -39,7 +39,7 @@
       }
 
       body {
-        font-family: 'Roboto Mono', 'Arial'
+        font-family: 'Red Hat Display', 'Arial'
       }
     </mj-style>
 
@@ -50,32 +50,32 @@
 
       <mj-divider border-color="#000000"></mj-divider>
 
-      <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+      <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
         The final bids are pending payment. If the higher bidder does not pay, you may be responsible for paying the remaining balance of your bid.
       </mj-text>
 
-      <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+      <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
         The refund will be emailed to you as an LNURL QR code that can be redeemed with any supporting Lightning wallet. Please allow up to 24 hours for refunds to be issued. Be sure to check your spam folder for your bid deposit refund.
       </mj-text>
 
-      <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+      <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
         If you experience any difficulty redeeming the funds, we'll coordinate another method without incurring any fee to you.
       </mj-text>
 
-      <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+      <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
         Please let us know if you have any questions.
       </mj-text>
 
-      <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+      <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
         Thank you for supporting Scarce City and Bitcoin art!
       </mj-text>
 
-      <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">Chris<br />
+      <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Chris<br />
         <a href="https://scarce.city">
           Scarce City</a>
       </mj-text>
 
-      <mj-text color="#000000" font-family="Roboto Mono">
+      <mj-text color="#000000" font-family="Red Hat Display">
         <a href=%unsubscribe_url%>Unsubscribe<a>
       </mj-text>
     </mj-column>

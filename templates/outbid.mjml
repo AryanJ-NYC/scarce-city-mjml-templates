@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-font name="Roboto Mono" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"></mj-font>
+    <mj-font name="Red Hat Display" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap"></mj-font>
     <mj-style>
       a {
         color: #4299e1;
@@ -12,7 +12,7 @@
       }
 
       body {
-        font-family: 'Roboto Mono', 'Arial'
+        font-family: 'Red Hat Display', 'Arial'
       }
     </mj-style>
 
@@ -24,11 +24,11 @@
 
         <mj-divider border-color="#000000"></mj-divider>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Whomp whomp, you&apos;ve been outbid in the {{ productName }} auction!
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Click <a href="https://scarce.city/auctions/{{ productSlug }}">here</a> to place a higher bid.
         </mj-text>
 
@@ -43,13 +43,13 @@
         <mj-raw>
           {{#if hasUnlimitedAuctionBids}}
         </mj-raw>
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           <a href="https://scarce.city/register">Register</a> your email address to access unlimited auction bids.
         </mj-text>
         <mj-raw>
           {{ else }}
         </mj-raw>
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           <a href="https://scarce.city/register">Register</a> your email address to access free bids up to {{ freeBidsLimit }} sats.
         </mj-text>
         <mj-raw>
@@ -58,7 +58,7 @@
         <mj-raw>
           {{ else }}
         </mj-raw>
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           <a href="https://scarce.city/register">Register</a> your email address to lower your bid deposit.
         </mj-text>
         <mj-raw>
@@ -68,14 +68,14 @@
           {{/if}}
         </mj-raw>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">Happy Bidding, <br />
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Happy Bidding, <br />
           <mj-raw>
             <a href="https://scarce.city">
               Scarce City</a>
           </mj-raw>
         </mj-text>
 
-        <mj-text color="#000000" font-family="Roboto Mono">
+        <mj-text color="#000000" font-family="Red Hat Display">
           <a href=%unsubscribe_url%>Unsubscribe<a>
         </mj-text>
       </mj-column>

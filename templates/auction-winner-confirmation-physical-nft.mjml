@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-font name="Roboto Mono" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"></mj-font>
+    <mj-font name="Red Hat Display" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap"></mj-font>
     <mj-style>
       a {
         color: #4299e1;
@@ -39,7 +39,7 @@
       }
 
       body {
-        font-family: 'Roboto Mono', 'Arial'
+        font-family: 'Red Hat Display', 'Arial'
       }
     </mj-style>
 
@@ -51,54 +51,54 @@
 
         <mj-divider border-color="#000000"></mj-divider>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Congratulations, {{ winnerName }}! You've won the <span class="font-bold text-black">{{ productName }}</span> auction!
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono" font-weight="bold">
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display" font-weight="bold">
           You have 4 hours to pay your final bid.
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           If you do not pay the full bid amount within the required time period, you will lose the right to purchase the item and your bid deposits will NOT be refunded.
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           You will also be charged a shipping deposit of approx. {{ shippingDepositAmount }} sats (subject to change based on conversion rate at time of payment).
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Once the item ships, the shipping cost difference<sup>*</sup> and the sum of your bid deposits will be refunded to you by email. We’ll also provide you with a shipping receipt, tracking information and the option to purchase insurance (if applicable) at that time.
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Return to the <a href="https://scarce.city/auctions/{{ productSlug }}">auction page</a> and input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your delivery information and pay your balance.
         </mj-text>
 
         <mj-raw>{{#if isCounterparty}}</mj-raw>
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           If you input an <span class="font-bold">NFT Receive Address</span>, we’ll transfer the NFT to the address as soon as possible. ONLY INPUT A COUNTERPARTY ADDRESS. Go to <a href="https://freewallet.io/">FreeWallet</a> to quickly generate a receive address. If you do not input an <span class="font-bold">NFT Receive Address</span>, your NFT will be sent to your Opendime address once you confirm item receipt.
         </mj-text>
         <mj-raw>
           {{else if isLiquid}}</mj-raw>
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Input an <span class="font-bold">NFT Receive Address</span> with your shipping information (LIQUID ADDRESS ONLY). Install <a href="https://blockstream.com/green">Blockstream GREEN</a> to generate a Liquid receive address.
         </mj-text>
         <mj-raw>{{/if}}</mj-raw>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           To protect your privacy, your shipping address will be deleted from our database after delivery is confirmed.
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Please let me know if you have any questions.
         </mj-text>
 
-        <mj-text font-size="12px" color="#000000" font-family="Roboto Mono">
+        <mj-text font-size="12px" color="#000000" font-family="Red Hat Display">
           <sup>*</sup> The shipping cost difference is calculated based on the BTC conversion price at the time your transaction is broadcasted.
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Roboto Mono">Chris<br />
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Chris<br />
           <a href="https://scarce.city">
             Scarce City</a>
         </mj-text>
