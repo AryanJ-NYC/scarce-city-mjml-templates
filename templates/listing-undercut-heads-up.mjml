@@ -1,0 +1,79 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Red Hat Display" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap"></mj-font>
+    <mj-style>
+      a {
+        color: #4299e1;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .my-2 {
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+
+      #summation-border {
+        border-bottom: 1px solid #555;
+        margin-top: 4px;
+        margin-bottom: 4px
+      }
+
+      .block {
+        display: block;
+      }
+
+      .text-black {
+        color: #000;
+      }
+
+      .italic {
+        font-style: italic
+      }
+
+      .font-bold {
+        font-weight: bold;
+      }
+
+      body {
+        font-family: 'Red Hat Display', 'Arial'
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body>
+    <mj-column background-color="#ffffff">
+      <mj-image width="100%" src="https://cdn.sanity.io/images/w4avejpr/production/1dfc70061a8c7854b52cd766b9176999b2c2fb9f-1280x1120.png?h=240&auto=format"></mj-image>
+
+      <mj-divider border-color="#000000"></mj-divider>
+
+      <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+        Oh no! Someone else listed {{ productName }} at a cheaper price than yours.
+      </mj-text>
+
+      <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+        <a href="https://scarce.city/marketplace/digital/submit?pepeName={{ productName }}">List yours at a cheaper price</a>.
+      </mj-text>
+
+      <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+        Please let us know if you have any questions.
+      </mj-text>
+
+      <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+        Thank you for supporting Scarce City and Bitcoin art!
+      </mj-text>
+
+      <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Chris<br />
+        <a href="https://scarce.city">
+          Scarce City</a>
+      </mj-text>
+
+      <mj-text color="#000000" font-family="Red Hat Display">
+        <a href=%unsubscribe_url%>Unsubscribe<a>
+      </mj-text>
+    </mj-column>
+  </mj-body>
+</mjml>
