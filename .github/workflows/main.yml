@@ -1,5 +1,8 @@
-name: CI
-on: [pull_request]
+name: Push to Mailgun
+on:
+  push:
+    branches:
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -30,3 +33,4 @@ jobs:
         run: yarn start
         env:
           CI: true
+          MAILGUN_API_KEY: ${{ secrets.MAILGUN_API_KEY }}
