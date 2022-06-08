@@ -43,7 +43,11 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          Once sent, we’ll follow up with your tracking information, shipping receipt, the corresponding shipping deposit refund, and the option to purchase insurance (if applicable).
+          Once sent, we’ll follow up with your tracking information and the corresponding shipping deposit refund.
+        </mj-text>
+        
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          For loaded goods, we'll also follow-up with the option to purchase shipping insurance. For all other goods, a maximum of 3% premium is added to the shipping cost for full coverage insurance. Please Reply to let us know if you would not like the good to be insured.
         </mj-text>
 
         <mj-raw>
