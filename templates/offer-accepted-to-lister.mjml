@@ -1,0 +1,43 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Red Hat Display" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap"></mj-font>
+    <mj-style>
+      a {
+        color: #4299e1;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      body {
+        font-family: 'Red Hat Display', 'Arial'
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column background-color="#ffffff">
+        <mj-image width="100%" src="https://cdn.sanity.io/images/w4avejpr/production/1dfc70061a8c7854b52cd766b9176999b2c2fb9f-1280x1120.png?h=240&auto=format"></mj-image>
+
+        <mj-divider border-color="#000000"></mj-divider>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          You accepted a {{ amountInBtc }} BTC offer for {{ pepeName }}.
+        </mj-text>
+
+        <mj-image src="{{ imageUrl }}" width="169px" />
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          The buyer has 24 hours to make their payment. If they do not pay, your Pepe will be relisted on our marketplace for {{ amountInBtc }} BTC.
+        </mj-text>
+
+        <mj-text color="#000000" font-family="Red Hat Display">
+          <a href=%unsubscribe_url%>Unsubscribe</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
