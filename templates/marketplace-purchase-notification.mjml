@@ -52,7 +52,7 @@
         <mj-divider border-color="#000000"></mj-divider>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          Your {{ productName }} has been sold. Please send it to {{ nftAddress }} within 24 hours with a high fee (if sending from Rare Pepe Wallet, no adjustment is required. If sending from FreeWallet, set Priority to “High”).
+          Your {{ productName }} has been sold for {{ priceInBtc }} BTC. Please send it to {{ nftAddress }} within 24 hours with a high fee (if sending from Rare Pepe Wallet, no adjustment is required. If sending from FreeWallet, set Priority to “High”).
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
