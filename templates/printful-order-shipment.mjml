@@ -27,12 +27,10 @@
         <mj-divider border-color="#000000"></mj-divider>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          Your {{ priceInBtc }} payment for {{ productName }} has confirmed.
+          Your {{ productName }} has shipped!
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          We will deliver the item as soon as possible. If applicable, we will follow-up with tracking information when the item is shipped.
-        </mj-text>
+        <mj-button border-radius="40px" background-color="#039112" href="{{ trackingUrl }}">Track your order</mj-button>
         
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Let me know if you have any questions in the meantime.
