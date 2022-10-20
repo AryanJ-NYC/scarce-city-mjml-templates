@@ -36,7 +36,7 @@ export default class MailGunClient extends Mailgun {
   ) => {
     try {
       await this.putTemplateVersion(templateName, versionTag, htmlTemplate);
-    } catch (err) {
+    } catch {
       await this.postTemplate(templateName, description, htmlTemplate);
     }
   };
