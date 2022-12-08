@@ -4,7 +4,8 @@
   "description": "A Node template using TypeScript and ts-node",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node -P tsconfig.json --files index.ts"
+    "start": "ts-node -P tsconfig.json --files index.ts",
+    "dev": "NODE_ENV=development ts-node -P tsconfig.json --files index.ts"
   },
   "repository": {
     "type": "git",
