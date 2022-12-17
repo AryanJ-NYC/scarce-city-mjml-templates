@@ -34,3 +34,4 @@ jobs:
         env:
           CI: true
           MAILGUN_API_KEY: ${{ secrets.MAILGUN_API_KEY }}
+          NODE_ENV: production
