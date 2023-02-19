@@ -52,11 +52,11 @@
         <mj-divider border-color="#000000"></mj-divider>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          The seller will send the Pepe to the Counterparty address you provided, {{ buyerCounterpartyAddress }}, within 24 hours.
+          The seller will send the NFT to the address you provided, {{ buyerCounterpartyAddress }}, within 24 hours.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          We'll email you the transaction ID once the pepe is sent.
+          We'll email you the transaction ID once the NFT is sent.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">

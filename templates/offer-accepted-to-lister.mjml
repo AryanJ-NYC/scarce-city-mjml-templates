@@ -31,7 +31,7 @@
         <mj-image src="{{ imageUrl }}" width="169px" />
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          The buyer has 24 hours to make their payment. If they do not pay, your Pepe will be relisted on our marketplace for {{ amountInBtc }} BTC.
+          The buyer has 24 hours to make their payment. If they do not pay, your NFT will be relisted on our marketplace for {{ amountInBtc }} BTC.
         </mj-text>
 
         <mj-text color="#000000" font-family="Red Hat Display">
