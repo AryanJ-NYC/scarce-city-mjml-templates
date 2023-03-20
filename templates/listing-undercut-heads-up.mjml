@@ -70,10 +70,6 @@
         <a href="https://scarce.city">
           Scarce City</a>
       </mj-text>
-
-      <mj-text color="#000000" font-family="Red Hat Display">
-        <a href=%unsubscribe_url%>Unsubscribe<a>
-      </mj-text>
     </mj-column>
   </mj-body>
 </mjml>

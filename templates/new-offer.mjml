@@ -31,10 +31,6 @@
         <mj-image href="https://scarce.city/marketplace/digital/{{ pepeName }}" src="{{ imageUrl }}" width="169px" />
 
         <mj-button border-radius="40px" background-color="#039112" href="https://scarce.city/marketplace/digital/{{ pepeName }}">Go to {{ pepeName }} Page</mj-button>
-
-        <mj-text color="#000000" font-family="Red Hat Display">
-          <a href=%unsubscribe_url%>Unsubscribe</a>
-        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>

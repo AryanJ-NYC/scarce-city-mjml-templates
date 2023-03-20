@@ -31,10 +31,6 @@
         <mj-button border-radius="40px" background-color="#039112" href="{{ checkoutLink }}">Pay Invoice</mj-button>
 
         <mj-image src="{{ imageUrl }}" width="169px" />
-
-        <mj-text color="#000000" font-family="Red Hat Display">
-          <a href=%unsubscribe_url%>Unsubscribe</a>
-        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
