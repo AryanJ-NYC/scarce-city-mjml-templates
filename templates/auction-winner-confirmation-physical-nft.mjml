@@ -56,7 +56,7 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display" font-weight="bold">
-          You have 4 hours to pay your final bid.
+          You have 4 hours to pay your final bid or request an extension.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
@@ -73,6 +73,10 @@
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Return to the <a href="https://scarce.city/auctions/{{ productSlug }}">auction page</a> and input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your delivery information and pay your balance.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          <span class="font-bold">Note:</span> Your total bid deposit will be refunded by email within 24 hours of completing payment.
         </mj-text>
 
         <mj-raw>{{#if isCounterparty}}</mj-raw>
