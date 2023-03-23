@@ -28,7 +28,7 @@
         <mj-divider border-color="#000000"></mj-divider>
 
         <mj-text font-size="16px" font-family="Red Hat Display">
-          Scan the QR code with your Lightning wallet to redeem your total bid deposit refund of {{ amount }} sats.
+          Your total bid deposit refund of {{ amount }} sats is now available to be redeemed. Scan the QR code with your Lightning wallet to redeem it immediately.
         </mj-text>
 
         <mj-image height="300px" width="300px" src="cid:your-qrcode.jpg"></mj-image>
@@ -37,7 +37,11 @@
         </mj-text>
 
         <mj-text font-size="16px" font-family="Red Hat Display">
-          If you're not able to withdraw from the LNURL QR code, please reply with a Lightning invoice of the amount owed or your on-chain Bitcoin receive address. We will pay it ASAP.
+          If you're not able to withdraw from the LNURL QR code, please reply with a Lightning invoice of the amount owed or your on-chain Bitcoin receive address. Please allow up to 48 hours for on-chain refunds to be processed.
+        </mj-text>
+
+        <mj-text font-size="16px" font-family="Red Hat Display">
+          You may also keep your deposit with us to bid in future auctions. Simply place bids with this email address and bid up to the amount previously unlocked.
         </mj-text>
 
         <mj-text font-size="16px" font-family="Red Hat Display">
@@ -45,7 +49,7 @@
         </mj-text>
 
         <mj-text font-size="16px" font-family="Red Hat Display">
-          If you haven’t already, sign up for our <a href="https://city.us19.list-manage.com/subscribe?u=d4f5035004fbb2cf449ced012&id=6d64f935f5">mailing list</a> and follow us on <a href="https://twitter.com/scarcedotcity">Twitter</a>.
+          Follow us on <a href="https://twitter.com/scarcedotcity">Twitter</a> and <a href="https://t.me/+Y8cTAoHurtowODhh">Telegram</a>.
         </mj-text>
 
         <mj-text font-size="16px" font-family="Red Hat Display">
