@@ -1,0 +1,97 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Red Hat Display" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap"></mj-font>
+    <mj-style>
+      a {
+        color: #4299e1;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .my-2 {
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+
+      #summation-border {
+        border-bottom: 1px solid #555;
+        margin-top: 4px;
+        margin-bottom: 4px
+      }
+
+      .block {
+        display: block;
+      }
+
+      .text-black {
+        color: #000;
+      }
+
+      .italic {
+        font-style: italic
+      }
+
+      .font-bold {
+        font-weight: bold;
+      }
+
+      body {
+        font-family: 'Red Hat Display', 'Arial'
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column background-color="#ffffff">
+        <mj-image width="100%" src="https://cdn.sanity.io/images/w4avejpr/production/1dfc70061a8c7854b52cd766b9176999b2c2fb9f-1280x1120.png?h=240&auto=format"></mj-image>
+
+        <mj-divider border-color="#000000"></mj-divider>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Your listing for {{ productName }} has sold.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          You can find the buyer&apos;s shipping address by logging into Scarce City and clicking "Your Sales CSV" from the Profile Menu.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          You&apos;re expected to ship the item within 3 days. Let us know if you need more time and we&apos;ll do our best to give it to you.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Reply to this email with a link to the item&apos;s tracking information and a Bitcoin address for your sale proceeds.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          <span class="font-bold text-black">To fully cover the risk of the package being stolen and buyer fraud, you must provide tracking and require the recipient to sign for the delivery.</span>
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Scarce City offers buyers the option to purchase shipping insurance. <span class="font-bold text-black">Do not purchase insurance protection from the shipping carrier.</span>
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          As stated in the Rules of Sale, <span class="font-bold text-black">sellers are not refunded the shipping cost.</span>
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Scarce City will release sale proceeds (minus a 10% commission fee, adjusted for your listing listing deposit) to the Bitcoin address you provide within 7 days after delivery has been confirmed.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Please let me know if you have any questions.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Chris<br />
+          <a href="https://scarce.city">
+            Scarce City</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
