@@ -67,8 +67,8 @@
           Reply to this email with a link to the item&apos;s tracking information and a Bitcoin address for your sale proceeds.
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          <span class="font-bold text-black">To fully cover the risk of the package being stolen and buyer fraud, you must provide tracking and require the recipient to sign for the delivery.</span>
+        <mj-text font-size="16px" css-class="font-bold text-black" color="#000000" font-family="Red Hat Display">
+          To fully cover the risk of the package being stolen and buyer fraud, you must provide tracking and require the recipient to sign for the delivery.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
@@ -88,8 +88,7 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Chris<br />
-          <a href="https://scarce.city">
-            Scarce City</a>
+          <a href="https://scarce.city">Scarce City</a>
         </mj-text>
       </mj-column>
     </mj-section>

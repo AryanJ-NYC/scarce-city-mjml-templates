@@ -60,11 +60,11 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          <span class="font-bold text-black">The card is NOT insured by default.</span> Scarce City will insure the risk of the card being lost or damaged in transit for 2% of the purchase price. 
+          <span class="font-bold text-black">The card is NOT insured by default.</span> Scarce City will insure the risk of the card being lost or damaged in transit for 2% of the purchase price.
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          <span class="font-bold text-black">Please REPLY if you'd like to purchase the insurance and we will follow-up with a BTC invoice.</span>
+        <mj-text font-size="16px" css-class="font-bold text-black" color="#000000" font-family="Red Hat Display">
+          Please REPLY if you'd like to purchase the insurance and we will follow-up with a BTC invoice.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
@@ -76,8 +76,7 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Chris<br />
-          <a href="https://scarce.city">
-            Scarce City</a>
+          <a href="https://scarce.city">Scarce City</a>
         </mj-text>
       </mj-column>
     </mj-section>
