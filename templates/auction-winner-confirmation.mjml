@@ -64,7 +64,7 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          You will also be charged a shipping deposit of approx. {{ shippingDepositAmount }} sats (subject to change based on conversion rate at time of payment).
+          You will be charged ${{ localShippingAmountInUsd }} for shipping within {{ prettyPrintedRegion }} and ${{ intercontinentalShippingAmountInUsd }} for destinations outside of it.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
