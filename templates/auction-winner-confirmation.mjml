@@ -64,11 +64,11 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          You will be charged ${{ localShippingAmountInUsd }} for shipping within {{ prettyPrintedRegion }} and ${{ intercontinentalShippingAmountInUsd }} for destinations outside of it.
+          You will be charged ${{ localShippingAmountInUsd }} for shipping within {{ prettyPrintedRegion }} and ${{ intercontinentalShippingAmountInUsd }} for destinations outside of it. You will have the option to purchase insurance to cover the risk of loss or damage during transit.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          Once the item ships, the shipping cost difference<sup>*</sup> and the sum of your bid deposits will be refunded to you by email. We’ll also provide you with a shipping receipt, tracking information and the option to purchase insurance (if applicable) at that time.
+          We will send you tracking information once the item ships.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
@@ -85,10 +85,6 @@
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Please let me know if you have any questions.
-        </mj-text>
-
-        <mj-text font-size="12px" color="#000000" font-family="Red Hat Display">
-          * The shipping cost difference is calculated based on the BTC conversion price at the time your transaction is broadcasted.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Chris<br />
