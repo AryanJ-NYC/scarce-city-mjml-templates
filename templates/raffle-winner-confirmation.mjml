@@ -68,12 +68,12 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          Once the item ships, the shipping cost difference<sup>*</sup> and the sum of your bid deposits will be refunded to you by email. We’ll also provide you with a shipping receipt, tracking information and the option to purchase insurance (if applicable) at that time.
+          Once the item ships, the shipping cost difference<sup>*</sup> will be refunded to you by email. We’ll also provide you with a shipping receipt, tracking information and the option to purchase insurance (if applicable) at that time.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Return to the <a href="https://scarce.city/raffles/{{ productSlug }}">raffle page</a> and input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your delivery information and pay your shipping cost.
-        </mj-text>t>
+        </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           To protect your privacy, your shipping address will be deleted from our database after delivery is confirmed.
