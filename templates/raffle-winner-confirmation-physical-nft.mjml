@@ -55,11 +55,11 @@
           Congratulations {{ winnerName }}! You've won the Raffle for <span class="font-bold text-black">{{ productName }}</span>!
         </mj-text>
 
-       <mj-text font-size="16px" color="#000000" font-family="Red Hat Display" font-weight="bold">
-          You have 4 hours to pay your shipping cost and submit your Counterparty Address.
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display" font-weight="bold">
+          You have 4 hours to pay your shipping cost and submit your NFT Address.
         </mj-text>
 
-       <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           If you do not pay the shipping cost and submit your address within the required time period, you will lose the right to the raffle and your ticket will NOT be refunded.
         </mj-text>
 
@@ -70,7 +70,7 @@
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Once the item ships, the shipping cost difference<sup>*</sup> will be refunded to you by email. We’ll also provide you with a shipping receipt, tracking information and the option to purchase insurance (if applicable) at that time.
         </mj-text>
-        
+
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Return to the <a href="https://scarce.city/raffles/{{ productSlug }}">raffle page</a> and input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your delivery information and pay your shipping cost.
         </mj-text>
@@ -79,16 +79,12 @@
           To protect your privacy, your shipping address will be deleted from our database after delivery is confirmed.
         </mj-text>
 
-        
-        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          INPUT A COUNTERPARTY ADDRESS into the NFT Receive Address field. Go to <a href="https://freewallet.io/">FreeWallet</a> to generate a receive address. We'll transfer the NFT to you as soon as possible.
-        </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Please let me know if you have any questions.
         </mj-text>
 
-         <mj-text font-size="12px" color="#000000" font-family="Red Hat Display">
+        <mj-text font-size="12px" color="#000000" font-family="Red Hat Display">
           * The shipping cost difference is calculated based on the BTC conversion price at the time your transaction is broadcasted.
         </mj-text>
 
