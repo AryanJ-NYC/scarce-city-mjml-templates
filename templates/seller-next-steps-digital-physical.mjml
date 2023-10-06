@@ -1,0 +1,77 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Red Hat Display" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap"></mj-font>
+    <mj-style>
+      a {
+        color: #4299e1;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      a,
+      body,
+      tr {
+        font-family: 'Red Hat Display', 'Arial'
+      }
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body>
+    <mj-section>
+      <mj-column background-color="#ffffff">
+        <mj-image width="100%" src="https://cdn.sanity.io/images/w4avejpr/production/1dfc70061a8c7854b52cd766b9176999b2c2fb9f-1280x1120.png?h=240&auto=format"></mj-image>
+
+        <mj-divider border-color="#000000"></mj-divider>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Thank you for participating in this week's drops.
+        </mj-text>
+
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Here are the next steps:
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          - Buyers have 24 hours to make their full payment (we allow more time depending on circumstances)
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          - Once payment is received, we will pass along the buyer's address for the physical item(s) and the wallet address for tokens/inscriptions
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          - Upon shipping, please send me the tracking number/link of the shipment and the transaction id for tokens/inscriptions sent
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          - Once delivery is confirmed, we will send (within 24 hours) your auction proceeds to the Bitcoin address you inputted with your submission
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          - You will receive confirmation by email once your proceeds have been delivered
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Make sure any physical item is packaged and ready to ship. You are expected to ship within 5 days of receiving the buyer's shipping address unless you communicated otherwise in the listing description.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Please let me know of any questions.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Thank you,<br />
+          <mj-raw>
+            <a href="https://scarce.city">
+              James
+            </a>
+          </mj-raw>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
