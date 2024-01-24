@@ -83,7 +83,7 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          We're excited to showcase your {dropName} and are committed to making your experience with Scarce City seamless and successful.
+          We're excited to showcase your {{ dropName }} and are committed to making your experience with Scarce City seamless and successful.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
