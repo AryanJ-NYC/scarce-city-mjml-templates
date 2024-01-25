@@ -90,7 +90,7 @@
           Warm regards,
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Chris<br />
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           <a href="https://scarce.city">The Scarce City Team</a>
         </mj-text>
       </mj-column>
