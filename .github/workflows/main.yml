@@ -12,17 +12,10 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Use Node 18
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
           node-version: 18.x
-
-      - name: Use cached node_modules
-        uses: actions/cache@v3
-        with:
-          path: node_modules
-          key: nodeModules-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            nodeModules-
+          cache: 'yarn'
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
