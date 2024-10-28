@@ -64,7 +64,7 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          You will be charged ${{ localShippingAmountInUsd }} for shipping within {{ prettyPrintedRegion }} and ${{ intercontinentalShippingAmountInUsd }} for destinations outside of it. You will have the option to purchase insurance to cover the risk of loss or damage during transit.
+          You will be charged ${{ localShippingRateInUsd }} for shipping within {{ prettyPrintedRegion }} and ${{ intercontinentalShippingRateInUsd }} for destinations outside of it. You will have the option to purchase insurance to cover the risk of loss or damage during transit.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
