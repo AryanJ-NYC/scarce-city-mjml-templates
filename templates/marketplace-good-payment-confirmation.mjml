@@ -1,0 +1,78 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Red Hat Display" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap"></mj-font>
+    <mj-style>
+      a {
+        color: #4299e1;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      a,
+      body,
+      tr {
+        font-family: 'Red Hat Display', 'Arial'
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column background-color="#ffffff">
+        <mj-image width="100%" src="https://cdn.sanity.io/images/w4avejpr/production/1dfc70061a8c7854b52cd766b9176999b2c2fb9f-1280x1120.png?h=240&auto=format"></mj-image>
+
+        <mj-divider border-color="#000000"></mj-divider>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Your payment for {{ productName }} has confirmed!
+        </mj-text>
+
+        <mj-raw>
+          {{#if isPhysical}}
+        </mj-raw>
+
+         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Once shipment is sent, we&apos;ll email you with the tracking information.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          For loaded goods, we'll also follow-up with the option to purchase shipping insurance.
+        </mj-text>
+
+        <mj-raw>
+          {{/if}}
+        </mj-raw>
+
+        <mj-raw>
+          {{#if isDigital}}
+        </mj-raw>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          The seller will send the NFT to your inputted NFT Receive Address as soon as possible. I&apos;ll follow-up with confirmation.
+        </mj-text>
+
+        <mj-raw>
+          {{/if}}
+        </mj-raw>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Please let me know if you have any questions in the meantime.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Thank you!
+        </mj-text>
+
+        <mj-text font-size="16px" font-family="Red Hat Display">
+          Chris<br />
+          <a href="https://scarce.city">
+            Scarce City
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
