@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
     "target": "es5",
     "module": "commonjs",
     "strict": true,
