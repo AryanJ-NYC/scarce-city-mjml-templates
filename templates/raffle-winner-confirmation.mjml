@@ -72,8 +72,10 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          Return to the <a href="https://scarce.city/raffles/{{ productSlug }}">raffle page</a> and input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your delivery information and pay your shipping cost.
+          Return to the <a href="https://scarce.city/raffles/{{ productSlug }}?authCode={{ authCode }}">raffle page</a> and input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your delivery information and pay your shipping cost.
         </mj-text>
+
+        <mj-button border-radius="40px" background-color="#039112" href="https://scarce.city/raffles/{{ productSlug }}?authCode={{ authCode }}">Pay Now</mj-button>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           To protect your privacy, your shipping address will be deleted from our database after delivery is confirmed.
