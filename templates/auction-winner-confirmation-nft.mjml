@@ -64,8 +64,10 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          Return to the <a href="https://scarce.city/auctions/{{ productSlug }}">auction page</a> and input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your NFT receive address to verify you are the winner and pay the balance.
+          Return to the <a href="https://scarce.city/auctions/{{ productSlug }}?authCode={{ authCode }}">auction page</a> and input <span class="font-bold text-black">Auth Code</span> <span class="italic">{{ authCode }}</span> with your NFT receive address to verify you are the winner and pay the balance.
         </mj-text>
+
+        <mj-button background-color="#000000" href="https://scarce.city/auctions/{{ productSlug }}?authCode={{ authCode }}">Pay Now</mj-button>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           <span class="font-bold">Note:</span> Your total bid deposit will be refunded by email within 24 hours of completing payment.
