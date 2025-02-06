@@ -1,13 +1,6 @@
-import dotenv from 'dotenv';
-import fs from 'fs';
+import fs from 'fs/promises';
 import mjml2html from 'mjml';
-import util from 'util';
-import MailGunClient from './services/MailgunClient';
-
-const readDir = util.promisify(fs.readdir);
-const readFile = util.promisify(fs.readFile);
-
-dotenv.config();
+import MailGunClient from './services/MailgunClient.ts';
 
 const domains = [
   'sandboxa0e011abaa70432c9e8dbcbf44304ff2.mailgun.org', // dev
@@ -15,7 +8,7 @@ const domains = [
 ].filter(Boolean);
 
 async function main() {
-  const mjmlFileNames = await readDir('./templates');
+  const mjmlFileNames = await fs.readdir('./templates');
 
   domains.forEach((d) => {
     const mailgunClient = new MailGunClient(d);
@@ -32,7 +25,7 @@ async function main() {
 }
 
 async function getFileContents(filePath: string) {
-  const fileBuffer = await readFile(filePath);
+  const fileBuffer = await fs.readFile(filePath);
   return fileBuffer.toString();
 }
 

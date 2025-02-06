@@ -1,8 +1,11 @@
 import Mailgun from 'mailgun-js';
 
 export default class MailGunClient extends Mailgun {
-  constructor(private readonly domain: string) {
-    super({ apiKey: process.env.MAILGUN_API_KEY, domain: 'mg.scarce.city' });
+  private readonly domain: string;
+
+  constructor(domain: string) {
+    super({ apiKey: process.env.MAILGUN_API_KEY, domain });
+    this.domain = domain;
   }
 
   private postTemplate = async (
