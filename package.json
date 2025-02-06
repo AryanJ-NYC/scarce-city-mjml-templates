@@ -4,7 +4,7 @@
   "description": "A Node template using TypeScript and ts-node",
   "main": "index.js",
   "scripts": {
-    "start": "node --experimental-strip-types --env-file=.env index.ts",
+    "start": "node --experimental-strip-types index.ts",
     "dev": "NODE_ENV=development node --experimental-strip-types --env-file=.env index.ts"
   },
   "repository": {
