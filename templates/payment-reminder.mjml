@@ -44,7 +44,7 @@
 
         <mj-text font-size="16px" font-family="Red Hat Display">
           Please visit
-          <mj-raw><a href="{{ auctionLink }}?authCode={{ authCode }}">the auction page</a></mj-raw>, enter your details and auth code
+          <mj-raw><a href="{{ auctionLink }}?authCode={{ encodedAuthCode }}">the auction page</a></mj-raw>, enter your details and auth code
           below, then proceed with the payment.
         </mj-text>
 
