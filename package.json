@@ -4,7 +4,7 @@
   "description": "A Node template using TypeScript and ts-node",
   "main": "index.js",
   "scripts": {
-    "start": "node --experimental-strip-types index.ts",
+    "start": "node --experimental-strip-types --env-file=.env index.ts",
     "dev": "NODE_ENV=development node --experimental-strip-types --env-file=.env index.ts"
   },
   "repository": {
@@ -24,14 +24,14 @@
   "homepage": "https://github.com/AryanJ-NYC/ts-node-typescript-template#readme",
   "dependencies": {
     "mailgun-js": "^0.22.0",
-    "mjml": "^4.8.1",
-    "typescript": "^4.2.2"
+    "mjml": "^4.15.0"
   },
   "devDependencies": {
     "@types/mailgun-js": "^0.22.10",
     "@types/mjml": "^4.7.0",
     "@types/node": "^22.0.0",
-    "cz-conventional-changelog": "3.3.0"
+    "cz-conventional-changelog": "3.3.0",
+    "typescript": "^5.8.3"
   },
   "config": {
     "commitizen": {
